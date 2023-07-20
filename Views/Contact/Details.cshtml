@@ -1,0 +1,255 @@
+﻿@model SEO.Models.Contact
+
+@{
+    Layout = null;
+}
+<div class="modal" tabindex="-1" role="dialog" id="detailpopup">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+               
+    <button type="button" class="close" onclick="close()" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+           
+<div class="modal-body">
+<div>
+<h4>Contact</h4>    
+<hr />
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+    <dl class="row">
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.LastName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Company)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Company2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Company3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.MiddleName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.FirstNamePreference)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Pronouns)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.AreaCode)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Prefix)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Line)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Extension)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.PhoneLabel)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.GatekeeperNote)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.PhoneNote)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.PhoneSort)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.AreaCode2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Prefix2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Line2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Extension2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone2Label)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper2Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone2Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone2Sort)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.AreaCode3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Prefix3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Line3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Extension3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone3Label)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper3Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone3Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone3Sort)
+        </div>
+    </dl>
+</div>
+<div class="col-sm-6 text-bold">
+    <dl class="row">
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.FirstName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.LastName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Company)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Company2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Company3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.MiddleName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.FirstNamePreference)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Pronouns)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.AreaCode)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Prefix)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Line)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Extension)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.PhoneLabel)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Gatekeeper)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.GatekeeperNote)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.PhoneNote)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.PhoneSort)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.AreaCode2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Prefix2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Line2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Extension2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone2Label)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Gatekeeper2)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Gatekeeper2Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone2Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone2Sort)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.AreaCode3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Prefix3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Line3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Extension3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone3Label)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Gatekeeper3)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Gatekeeper3Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone3Note)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayFor(model => model.Phone3Sort)
+        </div>
+    </dl>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-secondary" onclick="close2()">Close</button>
+
+</div>
+</div>
+               
+</div>
+</div>
+</div>
+<script>
+    function close2() {
+      
+        $("#detailpopup").modal("hide");
+    }
+</script>
