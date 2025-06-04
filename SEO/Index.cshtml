@@ -1,0 +1,413 @@
+﻿@model IEnumerable<SEO.Models.Hog>
+
+@{
+    ViewData["Title"] = "HOG";
+}
+
+<style>
+    .date-cell {
+        white-space: nowrap; /* Prevent line breaks */
+        overflow: hidden; /* Hide overflowing content */
+        text-overflow: ellipsis; /* Add ellipsis (...) if the content exceeds the cell width */
+    }
+</style>
+
+<h1>Index</h1>
+
+<img style="text-align: center; font-size: 150%" src="/media/iconHogSantaHat.png" title="HOG" alt="HOG" />   HOG
+<br />
+<br />
+<h5>Key: Color Coding</h5>
+
+<img src="../media/KeyColors.png" alt="Key: Color Coding">
+
+<br />
+<br />
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.run)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringRun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rerun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringRerun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.template)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateTemplate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.keyword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringKeyword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringKeyword1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateContent1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateContent2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateContent3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.html)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateHtml)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.meta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringMeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateMeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateSeo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.plugin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datePlugin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hero1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.backup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringBackup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateBackup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.buildExport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateBuildExport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringBuildExport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hog1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateHog)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringHog)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.post)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringPost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datePost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.site)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateSite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stringSite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dev)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hogOld)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Domain)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.run)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringRun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rerun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringRerun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntField1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StringField1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoolField1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateField1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntField2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StringField2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoolField2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateField2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntField3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StringField3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoolField3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateField3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.template)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateTemplate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.keyword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringKeyword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringKeyword1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateContent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateContent1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateContent2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateContent3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringContent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.html)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateHtml)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.meta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringMeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateMeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.seo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateSeo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.plugin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datePlugin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hero1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.backup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringBackup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateBackup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.buildExport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateBuildExport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringBuildExport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hog1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateHog)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringHog)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.post)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringPost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datePost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.site)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateSite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stringSite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dev)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hogOld)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Domain.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

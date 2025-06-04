@@ -1,0 +1,219 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SEO
+build_property.RootNamespace = SEO
+build_property.ProjectDir = C:\Users\3v3rh\_7560\Advertising\SEO\SEO\SEO\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\3v3rh\_7560\Advertising\SEO\SEO\SEO
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/zz Create - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXHp6IENyZWF0ZSAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Ahrefs/zz Edit - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWhyZWZzXHp6IEVkaXQgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/ContactClient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENsaWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/ContactClient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENsaWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/ContactClient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENsaWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/ContactClient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENsaWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/ContactClient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENsaWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/zz Create - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFx6eiBDcmVhdGUgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/zz Details - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFx6eiBEZXRhaWxzIC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Contact/zz Edit - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFx6eiBFZGl0IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/zz Create - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXHp6IENyZWF0ZSAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/zz Details - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXHp6IERldGFpbHMgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/zz Edit - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXHp6IEVkaXQgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Domain/zz Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluXHp6IEluZGV4IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/zz Create - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXHp6IENyZWF0ZSAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/zz Edit - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXHp6IEVkaXQgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Hog/zz Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9nXHp6IEluZGV4IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3v3rh/_7560/Advertising/SEO/SEO/SEO/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eqqrax7ibs

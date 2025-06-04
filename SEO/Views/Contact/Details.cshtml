@@ -1,0 +1,67 @@
+﻿@model SEO.Models.Contact
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="row">
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.LastName)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Company)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Department)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Email)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone1Full)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone2Full)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Phone3Full)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.Gatekeeper)
+        </div>
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.GatekeeperNote)
+        </div>
+
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.StreetNumber)
+        </div>
+
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.StreetName)
+        </div>
+
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.TownCity)
+        </div>
+
+        <div class="col-sm-12">
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </div>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

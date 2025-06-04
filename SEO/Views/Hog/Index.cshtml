@@ -1,0 +1,582 @@
+﻿@model IEnumerable<SEO.Models.Hog>
+
+@{
+    ViewData["Title"] = "HOG";
+}
+
+<style>
+    .date-cell {
+        white-space: nowrap; /* Prevent line breaks */
+        overflow: hidden; /* Hide overflowing content */
+        text-overflow: ellipsis; /* Add ellipsis (...) if the content exceeds the cell width */
+    }
+</style>
+
+<h1>Index</h1>
+
+<img style="text-align: center; font-size: 150%" src="/media/iconHogSantaHat.png" title="HOG" alt="HOG" />   HOG
+<br />
+<br />
+<h5>Key: Color Coding</h5>
+
+<img src="../media/KeyColors.png" alt="Key: Color Coding">
+
+<br />
+<br />
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Client
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Domain)
+            </th>
+            @* __________________________ Color Coded Fields _____________________________*@
+            <th>
+                @Html.DisplayNameFor(model => model.IntField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField1)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.IntField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField2)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.IntField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StringField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BoolField3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateField3)
+            </th>
+
+            @*____________________ Color Coded Fields (end) _________________________________*@
+
+            <th>
+                @Html.DisplayNameFor(model => model.run)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rerun)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.template)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.keyword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.html)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.meta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.plugin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hero)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.backup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.buildExport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hog1)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.post)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.site)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dev)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hogOld)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Domain.Contact.Company)
+                </td>
+                <td>
+                    <a href="@item.Domain.Website" target="_blank">
+                        @Html.DisplayFor(modelItem => item.Domain.Name)
+                    </a>
+                </td>
+
+
+                @* __________________________ Color Coded Fields _____________________________*@
+
+                @* __________________________________ 1 ______________________________________ *@
+
+                @{
+                    var intfield1color = "";
+                    if (item.IntField1 >= 1 && item.IntField1 <= 6)
+                    {
+                        intfield1color = "lightblue";
+                    }
+                    if (item.IntField1 > 6 && item.IntField1 <= 12)
+                    {
+                        intfield1color = "lightgreen";
+                    }
+                    if (item.IntField1 > 12 && item.IntField1 <= 18)
+                    {
+                        intfield1color = "red";
+                    }
+                    if (item.IntField1 > 18 && item.IntField1 <= 26)
+                    {
+                        intfield1color = "lightorange";
+                    }
+
+
+                    //var intfield1color = "";
+                    //if (item.IntField1 >= 1 && item.IntField1 <= 5)
+                    //{
+                    //    intfield1color = "blue";
+                    //}
+                    //if (item.IntField1 >5 && item.IntField1 <=10)
+                    //{
+                    //    intfield1color = "green";
+                    //}
+                    //if (item.IntField1 >10 && item.IntField1 <= 15)
+                    //{
+                    //    intfield1color = "red";
+                    //}
+                }
+                <th style="background-color: @intfield1color">
+                    <span>
+                        @Html.DisplayFor(modelItem => item.IntField1)
+                    </span>
+                </th>
+                @{
+
+
+                    char? firstCharacter = item.StringField1?.ToLower()[0];  // Get the lowercase of the first character
+
+                    var fieldColor1 = "";  // Variable to store the field color
+
+                    if (firstCharacter >= 'a' && firstCharacter <= 'i')
+                    {
+                        fieldColor1 = "lightblue";
+                    }
+                    else if (firstCharacter >= 'j' && firstCharacter <= 'o')
+                    {
+                        fieldColor1 = "yellow";
+                    }
+                    else if (firstCharacter >= 'p' && firstCharacter <= 'z')
+                    {
+                        fieldColor1 = "orange";
+                    }
+                    else
+                    {
+                        // Default color if the first character is not within the specified ranges
+                        fieldColor1 = "white";
+                    }
+
+
+
+                }
+                <td style="background-color: @fieldColor1">
+                    @Html.DisplayFor(modelItem => item.StringField1)
+                </td>
+
+                @if (item.BoolField1.HasValue && item.BoolField1 == true)
+                {
+                    <td style="background-color: mediumpurple">
+                        <span>
+                            @item.BoolField1
+                            @*@Html.DisplayFor(modelItem => item.BoolField1)*@
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td style="background-color: white">
+                        <span>
+                            @item.BoolField1
+                            @*@Html.DisplayFor(modelItem => item.BoolField1)*@
+                        </span>
+                    </td>
+                }
+
+                @*                @if (item.DateField1.HasValue && item.DateField1.Value > DateTime.Today && item.DateField1.Value < DateTime.Today.AddDays(14))
+            {
+            <td style="background-color: chartreuse">
+            <span>
+            @Html.DisplayFor(modelItem => item.DateField1)
+            </span>
+            </td>
+            }
+            else
+            {
+            <td style="background-color: lightcoral"
+            white-space: nowrap:
+            overflow: hidden;
+            text-overflow: ellipsis;
+            />
+
+            <span>
+            @Html.DisplayFor(modelItem => item.DateField1)
+            </span>
+            </td>
+            }*@
+
+
+                @if (item.DateField1.HasValue && item.DateField1.Value > DateTime.Today && item.DateField1.Value < DateTime.Today.AddDays(14))
+                {
+                    <td class="date-cell" style="background-color: chartreuse">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField1)
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td class="date-cell" style="background-color: white">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField1)
+                        </span>
+                    </td>
+                }
+
+                @* ________________________________ 1 (end) __________________________________ *@
+
+                @* ___________________________________ 2 _____________________________________ *@
+
+                @{
+                    var intfield1color2 = "";
+                    if (item.IntField2 >= 1 && item.IntField2 <= 6)
+                    {
+                        intfield1color2 = "lightblue";
+                    }
+                    if (item.IntField2 > 6 && item.IntField2 <= 12)
+                    {
+                        intfield1color2 = "lightgreen";
+                    }
+                    if (item.IntField2 > 12 && item.IntField2 <= 18)
+                    {
+                        intfield1color2 = "red";
+                    }
+                    if (item.IntField2 > 18 && item.IntField2 <= 26)
+                    {
+                        intfield1color2 = "orange";
+                    }
+
+                    //var intfield1color2 = "";
+                    //if (item.IntField2 >= 1 && item.IntField2 <= 5)
+                    //{
+                    //    intfield1color2 = "blue";
+                    //}
+                    //if (item.IntField2 > 5 && item.IntField2 <= 10)
+                    //{
+                    //    intfield1color2 = "green";
+                    //}
+                    //if (item.IntField2 > 10 && item.IntField2 <= 15)
+                    //{
+                    //    intfield1color2 = "red";
+                    //}
+
+
+
+
+                }
+                <td style="background-color: @intfield1color2">
+
+                    <span>
+                        @Html.DisplayFor(modelItem => item.IntField2)
+                    </span>
+                </td>
+                @{
+
+
+                    char? firstCharacter1 = item.StringField2?.ToLower()[0];  // Get the lowercase of the first character
+
+                    var fieldColor2 = "";  // Variable to store the field color
+
+                    if (firstCharacter1 >= 'a' && firstCharacter1 <= 'i')
+                    {
+                        fieldColor2 = "lightblue";
+                    }
+                    else if (firstCharacter1 >= 'j' && firstCharacter1 <= 'o')
+                    {
+                        fieldColor2 = "yellow";
+                    }
+                    else if (firstCharacter1 >= 'p' && firstCharacter1 <= 'z')
+                    {
+                        fieldColor2 = "orange";
+                    }
+                    else
+                    {
+                        // Default color if the first character is not within the specified ranges
+                        fieldColor2 = "white";
+                    }
+
+
+
+                }
+                <td style="background-color: @fieldColor2">
+                    @Html.DisplayFor(modelItem => item.StringField2)
+                </td>
+
+                @if (item.BoolField2.HasValue && item.BoolField2 == true)
+                {
+                    <td style="background-color: lightgreen">
+                        <span>
+                            @item.BoolField2
+                            @*@Html.DisplayFor(modelItem => item.BoolField2)*@
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td style="background-color: lightblue">
+                        <span>
+                            @item.BoolField2
+                            @*@Html.DisplayFor(modelItem => item.BoolField2)*@
+                        </span>
+                    </td>
+                }
+
+
+                @if (item.DateField2.HasValue && item.DateField2.Value > DateTime.Today && item.DateField2.Value < DateTime.Today.AddDays(14))
+                {
+                    <td class="date-cell" style="background-color: lightgreen">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField2)
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td class="date-cell" style="background-color: lightblue">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField2)
+                        </span>
+                    </td>
+                }
+
+                @* ________________________________ 2 (end) __________________________________ *@
+
+                @* ___________________________________ 3 _____________________________________ *@
+
+                @{
+                    var intfield1color3 = "";
+                    if (item.IntField3 >= 1 && item.IntField3 <= 5)
+                    {
+                        intfield1color3 = "lightblue";
+                    }
+                    if (item.IntField3 > 5 && item.IntField3 <= 10)
+                    {
+                        intfield1color3 = "lightgreen";
+                    }
+                    if (item.IntField3 > 10 && item.IntField3 <= 15)
+                    {
+                        intfield1color3 = "red";
+                    }
+                }
+                <td style="background-color: @intfield1color3">
+
+                    <span>
+                        @Html.DisplayFor(modelItem => item.IntField3)
+                    </span>
+                </td>
+
+                @{
+
+
+                    char? firstCharacter2 = item.StringField3?.ToLower()[0];  // Get the lowercase of the first character
+
+                    var fieldColor3 = "";  // Variable to store the field color
+
+                    if (firstCharacter2 >= 'a' && firstCharacter2 <= 'i')
+                    {
+                        fieldColor3 = "lightblue";
+                    }
+                    else if (firstCharacter2 >= 'j' && firstCharacter2 <= 'o')
+                    {
+                        fieldColor3 = "yellow";
+                    }
+                    else if (firstCharacter2 >= 'p' && firstCharacter2 <= 'z')
+                    {
+                        fieldColor3 = "orange";
+                    }
+                    else
+                    {
+                        // Default color if the first character is not within the specified ranges
+                        fieldColor3 = "white";
+                    }
+
+
+
+                }
+                <td style="background-color: @fieldColor3">
+                    @Html.DisplayFor(modelItem => item.StringField3)
+                </td>
+
+                @if (item.BoolField3.HasValue && item.BoolField3 == true)
+                {
+                    <td style="background-color: lightgreen">
+                        <span>
+                            @item.BoolField3
+                            @*@Html.DisplayFor(modelItem => item.BoolField3)*@
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td style="background-color: lightblue">
+                        <span>
+                            @item.BoolField3
+                            @* @Html.DisplayFor(modelItem => item.BoolField3)*@
+                        </span>
+                    </td>
+                }
+
+
+                @if (item.DateField3.HasValue && item.DateField3.Value > DateTime.Today && item.DateField3.Value < DateTime.Today.AddDays(14))
+                {
+                    <td class="date-cell" style="background-color: lightgreen">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField3)
+                        </span>
+                    </td>
+                }
+                else
+                {
+                    <td class="date-cell" style="background-color: lightblue">
+                        <span>
+                            @Html.DisplayFor(modelItem => item.DateField3)
+                        </span>
+                    </td>
+                }
+                @* ________________________________ 3 (end) __________________________________ *@
+
+                @*____________________ Color Coded Fields (end) _________________________________*@
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.run)
+                </td>
+                <td>
+                    @item.rerun
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.template)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.location)
+                </td>
+                <td>
+                    @item.keyword
+                    @*@Html.DisplayFor(modelItem => item.keyword)*@
+                </td>
+                <td>
+                    @item.content
+                    @*@Html.DisplayFor(modelItem => item.content)*@
+                </td>
+                <td>
+                    @item.html
+                    @*@Html.DisplayFor(modelItem => item.html)*@
+                </td>
+                <td>
+                    @item.meta
+                    @*@Html.DisplayFor(modelItem => item.meta)*@
+                </td>
+                <td>
+                    @item.seo
+                    @*@Html.DisplayFor(modelItem => item.seo)*@
+                </td>
+                <td>
+                    @item.plugin
+                    @*@Html.DisplayFor(modelItem => item.plugin)*@
+                </td>
+                <td>
+                    @item.hero
+                    @* @Html.DisplayFor(modelItem => item.hero)*@
+                </td>
+                <td>
+                    @item.backup
+                    @*@Html.DisplayFor(modelItem => item.backup)*@
+                </td>
+                <td>
+                    @item.buildExport
+                    @*@Html.DisplayFor(modelItem => item.buildExport)*@
+                </td>
+                <td>
+                    @item.hog1
+                    @*@Html.DisplayFor(modelItem => item.hog1)*@
+                </td>
+                <td>
+                    @item.post
+                    @*@Html.DisplayFor(modelItem => item.post)*@
+                </td>
+                <td>
+                    @item.site
+                    @*@Html.DisplayFor(modelItem => item.site)*@
+                </td>
+
+                <td>
+                    @item.dev
+                    @*@Html.DisplayFor(modelItem => item.dev)*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hogOld)
+                </td>
+                <td style="white-space: nowrap;">
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

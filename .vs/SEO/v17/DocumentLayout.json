@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\domain\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\domain\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\domain\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\domain\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\domain\\zz details - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\domain\\zz details - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\domain\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\domain\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\domain\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\domain\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|c:\\users\\3v3rh\\_7560\\advertising\\seo\\seo\\seo\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC26D469-52F8-4F2A-806E-A1F7AAEE56EB}|SEO\\SEO.csproj|solutionrelative:seo\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:25:14.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "zz Details - Copy.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\zz Details - Copy.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Domain\\zz Details - Copy.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\zz Details - Copy.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Domain\\zz Details - Copy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:18:49.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Details.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Domain\\Details.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Details.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Domain\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:18:36.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Domain\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Edit.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Domain\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:16:15.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Create.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Domain\\Create.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Create.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Domain\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:14:10.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Index.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Domain\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Domain\\Index.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Domain\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T19:08:01.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Contact\\Create.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Contact\\Create.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Contact\\Create.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Contact\\Create.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAFoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T18:59:18.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Contact\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SEO\\Views\\Contact\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\3v3rh\\_7560\\Advertising\\SEO\\SEO\\SEO\\Views\\Contact\\Edit.cshtml",
+              "RelativeToolTip": "SEO\\Views\\Contact\\Edit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T18:58:50.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

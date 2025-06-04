@@ -1,0 +1,387 @@
+﻿@model SEO.Models.Hog
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Hog</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.run)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.run)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringRun)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringRun)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.rerun)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rerun)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringRerun)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringRerun)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IntField1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IntField1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StringField1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StringField1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoolField1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoolField1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateField1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateField1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IntField2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IntField2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StringField2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StringField2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoolField2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoolField2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateField2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateField2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IntField3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IntField3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StringField3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StringField3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoolField3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoolField3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateField3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateField3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.template)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.template)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateTemplate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateTemplate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.keyword)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.keyword)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringKeyword)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringKeyword)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringKeyword1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringKeyword1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.content)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.content)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.content1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.content1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.content2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.content2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateContent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateContent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateContent1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateContent1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateContent2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateContent2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateContent3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateContent3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringContent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringContent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.html)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.html)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateHtml)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateHtml)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.meta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.meta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringMeta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringMeta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateMeta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateMeta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.seo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.seo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateSeo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateSeo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.plugin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.plugin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.datePlugin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.datePlugin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.hero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.hero)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.hero1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.hero1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringHero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringHero)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateHero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateHero)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.backup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.backup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringBackup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringBackup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateBackup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateBackup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.buildExport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.buildExport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateBuildExport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateBuildExport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringBuildExport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringBuildExport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.hog1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.hog1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateHog)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateHog)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringHog)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringHog)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.post)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.post)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringPost)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringPost)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.datePost)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.datePost)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.site)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.site)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateSite)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateSite)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.stringSite)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stringSite)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dev)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dev)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.hogOld)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.hogOld)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Domain)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Domain.Id)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
